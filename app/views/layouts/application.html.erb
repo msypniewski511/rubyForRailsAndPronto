@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>R4music1</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+    <title><%= @page_title %></title>
+  </head>
+
+  <body>
+    <h1 class="banner">The R4R Music Store</h1>
+    <%= yield %>
+    <hr />
+    <p>Copyright &copy; 2024, R4RMusic</p>
+  </body>
+</html>
