@@ -28,6 +28,8 @@ group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "pronto"
   gem "pronto-flay", require: false
+  # gem "pronto-poper", require: false
+  gem "pronto-reek", require: false
   gem "pronto-rubocop", require: false
 end
 

@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
+  resources :posts
   get "composer/:id", to: "composer#show", as: "composer"
   get "edition/:id", to: "edition#show", as: "edition"
   get "work/:id", to: "work#show", as: "work"
